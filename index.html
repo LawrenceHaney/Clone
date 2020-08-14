@@ -10,8 +10,8 @@
 </head>
 
 <body class="container-fluid">
-  <header>
-    <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-primary">
+  <header class="row">
+    <nav class="col-12 navbar sticky-top navbar-expand-sm navbar-light bg-primary">
       <a class="navbar-brand" href="#">Navbar</a>
       <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
           aria-expanded="false" aria-label="Toggle navigation">
@@ -42,52 +42,53 @@
       </div>
     </nav>
   </header>
-
+  
+  <main>
   <!-- Jumbo & forum -->
   <section id="splash" class="row">
     <div class="jumbotron jumbotron-fluid col-12 splashback">
       
       <div class="container-fluid">
         <div class="row">
-        <div id="foum" class="col-3">
-          <h3>title</h3>
-          <div class="card">
-            <div class="card-body">
-              <form class="row">
-                <div class="form-group col-12">
-                  <label for="exampleInputEmail1">Foums Have Titles</label>
-                  <input type="text" class="form-control" id="LandName"  placeholder="Name">
-                </div>
-                <div class="form-group col-12">
-                  <input type="email" class="form-control" id="LandEmail"  placeholder="Email">
-                </div>
-                <div class="form-group col-8">
-                  <input type="tel" class="form-control" id="LandPhonePrime"  placeholder="Phone">
-                </div>
-                <div class="form-group col-4">
-                  <input type="number" class="form-control" id="LandPhoneExt"  placeholder="Ext.">
-                </div>
-                <div class="form-group col-12">
-                  <input type="text" class="form-control" id="LandMessage"  placeholder="Lost? Tell us what you need.">
-                </div>
-                <div class="form-check col-12 offset-1 my-1">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Hey I'm leagaly binding if you check me!</label>
-                </div>
-                <button type="submit" class="btn btn-primary col-4 offset-1">Deliver</button>
-              </form>
+          <div id="foum" class="col-3">
+            <h3>title</h3>
+            <div class="card">
+              <div class="card-body">
+                <form class="row">
+                  <div class="form-group col-12">
+                    <label for="exampleInputEmail1">Foums Have Titles</label>
+                    <input type="text" class="form-control" id="LandName"  placeholder="Name">
+                  </div>
+                  <div class="form-group col-12">
+                    <input type="email" class="form-control" id="LandEmail"  placeholder="Email">
+                  </div>
+                  <div class="form-group col-8">
+                    <input type="tel" class="form-control" id="LandPhonePrime"  placeholder="Phone">
+                  </div>
+                  <div class="form-group col-4">
+                    <input type="number" class="form-control" id="LandPhoneExt"  placeholder="Ext.">
+                  </div>
+                  <div class="form-group col-12">
+                    <input type="text" class="form-control" id="LandMessage"  placeholder="Lost? Tell us what you need.">
+                  </div>
+                  <div class="form-check col-12 offset-1 my-1">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Hey I'm leagaly binding if you check me!</label>
+                  </div>
+                  <button type="submit" class="btn btn-primary col-4 offset-1">Deliver</button>
+                </form>
+              </div>
             </div>
           </div>
+          <div class="col-6 justify-content-end">
+            <h1 class="display-4 text-light">Fluid jumbotron</h1>
+            <p class="lead text-light">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          </div>
         </div>
-        <div class="col-6 justify-content-end">
-          <h1 class="display-4 text-light">Fluid jumbotron</h1>
-          <p class="lead text-light">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-        </div>
-      </div>
       </div>
     </div>
   </section>
-
+  
   <!-- Offset content w/ icons -->
   <section class="row bg-primary postion-absolute">
     <div class="col-4"><h1>Yo games</h1><h2>They Exist my dude</h2><p>you can play them by yourself, with your firends, with your foes and sometimes with your dog, dog.</p></div>
@@ -105,7 +106,7 @@
       </div>
     </div>
   </section>
-
+  
   <!-- Carousel and body -->
   <section class="row">
     <div class="col-4">
@@ -130,7 +131,7 @@
       <div class="col-3 align-self-end"><button class="btn btn-primary" type="submit">Waste some money?</button></div>
     </div>
   </section>
-
+  
   <!-- asymetrical cards -->
   <section id="landcardcontainer" class="row space-around justify-content-center align-content-center">
     <div class="col-3">
@@ -161,17 +162,18 @@
       </div>
     </div>
   </section>
-
+  
   <section class="row bg-primary">
     <h1 class="col-12">A Conculsion</h1>
     <h4 class="col-12">A really absolutely unquestionably drawn out overly verbose meandering block of typeface in the form of text that serves to honestly fill to the brim a section of desolate destitute empty space near the lower section of a page.</h4>
   </section>
-
+</main>
+  
   <footer class="row">
-<h1>footer</h1>
+    <h1>footer</h1>
   </footer>
-
-
+  
+  
   <!-- bootsrap scpits -->
   <script src='https://code.jquery.com/jquery-3.2.1.slim.min.js' integrity='sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN' crossorigin='anonymous'></script> 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js' integrity='sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q' crossorigin='anonymous'></script> 
