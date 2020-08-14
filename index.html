@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Intesting Title Bar</title>
   <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/70a305de4c.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="container-fluid">
   <header>
-    <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-light">
+    <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-primary">
       <a class="navbar-brand" href="#">Navbar</a>
       <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
           aria-expanded="false" aria-label="Toggle navigation">
@@ -42,39 +43,92 @@
     </nav>
   </header>
 
+  <!-- Jumbo & forum -->
   <section id="splash" class="row">
-    <div id="foum" class="col-3">
-      <h3>title</h3>
-      <div class="card">
-        <div class="card-body">
-          <form class="row">
-            <div class="form-group col-12">
-              <label for="exampleInputEmail1">Foums Have Titles</label>
-              <input type="text" class="form-control" id="LandName"  placeholder="Name">
+    <div class="jumbotron jumbotron-fluid col-12 splashback">
+      
+      <div class="container-fluid">
+        <div class="row">
+        <div id="foum" class="col-3">
+          <h3>title</h3>
+          <div class="card">
+            <div class="card-body">
+              <form class="row">
+                <div class="form-group col-12">
+                  <label for="exampleInputEmail1">Foums Have Titles</label>
+                  <input type="text" class="form-control" id="LandName"  placeholder="Name">
+                </div>
+                <div class="form-group col-12">
+                  <input type="email" class="form-control" id="LandEmail"  placeholder="Email">
+                </div>
+                <div class="form-group col-8">
+                  <input type="tel" class="form-control" id="LandPhonePrime"  placeholder="Phone">
+                </div>
+                <div class="form-group col-4">
+                  <input type="number" class="form-control" id="LandPhoneExt"  placeholder="Ext.">
+                </div>
+                <div class="form-group col-12">
+                  <input type="text" class="form-control" id="LandMessage"  placeholder="Lost? Tell us what you need.">
+                </div>
+                <div class="form-check col-12 offset-1 my-1">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Hey I'm leagaly binding if you check me!</label>
+                </div>
+                <button type="submit" class="btn btn-primary col-4 offset-1">Deliver</button>
+              </form>
             </div>
-            <div class="form-group col-12">
-              <input type="email" class="form-control" id="LandEmail"  placeholder="Email">
-            </div>
-            <div class="form-group col-8">
-              <input type="tel" class="form-control" id="LandPhonePrime"  placeholder="Phone">
-            </div>
-            <div class="form-group col-4">
-              <input type="number" class="form-control" id="LandPhoneExt"  placeholder="Ext.">
-            </div>
-            <div class="form-group col-12">
-              <input type="text" class="form-control" id="LandMessage"  placeholder="Lost? Tell us what you need.">
-            </div>
-            <div class="form-check col-12 offset-1 my-1">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Hey I'm leagaly binding if you check me!</label>
-            </div>
-            <button type="submit" class="btn btn-primary col-4 offset-1">Deliver</button>
-          </form>
+          </div>
         </div>
+        <div class="col-6 justify-content-end">
+          <h1 class="display-4 text-light">Fluid jumbotron</h1>
+          <p class="lead text-light">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+      </div>
       </div>
     </div>
   </section>
 
+  <!-- Offset content w/ icons -->
+  <section class="row bg-primary postion-absolute">
+    <div class="col-4"><h1>Yo games</h1><h2>They Exist my dude</h2><p>you can play them by yourself, with your firends, with your foes and sometimes with your dog, dog.</p></div>
+    <div class="col-6 card postion-custom">
+      <div class="card-body row">
+        <div class="col-12">
+          <p></p><strong><i class="fas fa-dice"></i></strong>  RNG! for when you want to blame something else</p>
+        </div>
+        <div class="col-12">
+          <p></p><strong><i class="fas fa-chess"></i> </strong> Stratagey! Tactician's have traction</p>
+        </div>
+        <div class="col-12"><p></p><strong><i class="fas fa-puzzle-piece"></i></strong> Puzzles! Not everything is a jigsaw</p></div>
+        <div class="col-12"><p></p><strong><i class="fas fa-hat-wizard"></i></strong> RPGs! Real life is lame</p></div>
+        <div class="col-12"><p></p><strong><i class="fas fa-handshake"></i></strong> Co-op! Work together to solve problems</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Carousel and body -->
+  <section class="row">
+    <div class="col-4">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 img-fluid" src="meeple.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 img-fluid" src="mini.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 img-fluid" src="board.jpg" alt="Third slide">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-8 d-flex-column justify-content-between">
+      <h1><i class="fab fa-kickstarter"></i> Crowdfunding</h1>
+      <h2>Modern Desingers Timeless Fun</h2>
+      <p>More and more boardgames are published each year by small teams breing orginal ideas to the public without the risks of the traditonal product pipeline. With the rise of Kickstarter and simlar services games are no longer held hostage by coprate boardrooms and safe investments.</p>
+    </div>
+  </section>
   <!-- bootsrap scpits -->
   <script src='https://code.jquery.com/jquery-3.2.1.slim.min.js' integrity='sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN' crossorigin='anonymous'></script> 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js' integrity='sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q' crossorigin='anonymous'></script> 
