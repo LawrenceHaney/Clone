@@ -10,7 +10,11 @@ header{
 main{
   flex-grow: 1;
 }
+/* todo fix text centering */
+#LandMessage{
+  height: 10vh;
+}
 
 footer{
-  
+
  }
