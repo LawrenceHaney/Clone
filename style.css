@@ -23,6 +23,9 @@ main{
 position: relative;
 top: 5vh;
 }
+#landcardcontainer{
+  height: 20vh;
+}
 footer{
 
  }
