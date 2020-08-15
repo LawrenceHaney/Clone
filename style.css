@@ -1,3 +1,9 @@
+@media screen and (max-width: 600px) {
+  #jumbotext {
+    display: none;
+  }
+}
+
 body { 
   min-height: 100vh;
   display: flex; 
@@ -5,12 +11,16 @@ body {
  }
 
 header{
+  height: 5vh;
 
  }
+.left-boarder-dark{
+  border-left: .5rem solid var(--primary);
+  padding-left: 1rem;
+}
 
 .splashback{
   background-image: url(/splashback.jpg);
-  
   margin-bottom: 0;
 }
 main{
@@ -24,9 +34,53 @@ main{
 position: relative;
 top: 5vh;
 }
-#landcardcontainer{
-  height: 20vh;
+#land2{
+
 }
+#land3{
+  height: 40vh
+}
+
+#landcardcontainer{
+  height: 35vh;
+}
+
+#carousel1{
+  background-image: url(/meeple.jpg);
+  height: 40vh;
+}
+#carousel2{
+  background-image: url(/mini.jpg);
+  height: 40vh;
+}
+#carousel3{
+  background-image: url(/board.jpg);
+  height: 40vh;
+}
+
 footer{
 
  }
+
+ /* structure */
+ .img-fill{
+  background-position: center center;
+  background-size: cover;
+ }
+ /* styling */
+ .abril{
+  font-family: 'Abril Fatface', cursive;
+ }
+ .oswald{
+  font-family: 'Oswald', sans-serif;
+ }
+ .text-shadow{
+  text-shadow: 2px 2px var(--dark);
+ }
+
+
+ @media screen and (max-width: 600px) {
+  .jumbotext {
+    display: none;
+  }
+}

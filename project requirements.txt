@@ -12,17 +12,17 @@ Remember, load order is important. Pay attention to which link tag is where, in 
 
 Requirements
 Visualization
- The page utilizes the Bootstrap Grid system to maintain a proper architecture
- Appropriate use of HTML5 Semantic tags for the header, main and footer
- On mobile any elements sharing a row should stack
- Utilizes custom font on at least one element
+        The page utilizes the Bootstrap Grid system to maintain a proper architecture  !Done
+        Appropriate use of HTML5 Semantic tags for the header, main and footer   !done
+ On mobile any elements sharing a row should stack 
+        Utilizes custom font on at least one element !done
 The following must adhere to the mock
- Sticky Navbar on scroll
- The Text Over Image is hidden on mobile (@media Rule)
- The Card spills out of the row on medium and larger screens
- Must use external Icon library (FontAwesome, Material Icons, etc.)
- Specified elements order changes based on screen size
- Cards are vertically centered with the center card larger for emphasis
+ Sticky Navbar on scroll 
+ The Text Over Image is hidden on mobile (@media Rule) borken
+ The Card spills out of the row on medium and larger screens 
+      Must use external Icon library (FontAwesome, Material Icons, etc.) !done
+ Specified elements order changes based on screen size 
+      Cards are vertically centered with the center card larger for emphasis !done
  Appropriate use of Margins and padding
 reference: https://www.figma.com/file/vewXfmgWeQN9QCw9ELYdiI/Clone-Site?node-id=0%3A1
 
