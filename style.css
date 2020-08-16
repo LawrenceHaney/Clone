@@ -34,16 +34,7 @@ main{
 position: relative;
 top: 5vh;
 }
-#land2{
 
-}
-/* #land3{
-  height: 40vh
-} */
-
-/* #landcardrow{
-  height: 35vh;
-} */
 
 #carousel1{
   background-image: url(/meeple.jpg);
@@ -77,7 +68,13 @@ footer{
  .text-shadow{
   text-shadow: 2px 2px var(--dark);
  }
+ .box-shadow{
+   box-shadow: .5em .5em;
+ }
 
+ .bg-subtle{
+   background-color: rgb(226, 207, 193);
+ }
 
 @media screen and (max-width: 600px) {
 #jumbotext{display: none;
