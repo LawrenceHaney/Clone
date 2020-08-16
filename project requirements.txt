@@ -14,16 +14,16 @@ Requirements
 Visualization
         The page utilizes the Bootstrap Grid system to maintain a proper architecture  !Done
         Appropriate use of HTML5 Semantic tags for the header, main and footer   !done
- On mobile any elements sharing a row should stack 
+        On mobile any elements sharing a row should stack  !done
         Utilizes custom font on at least one element !done
 The following must adhere to the mock
  Sticky Navbar on scroll 
- The Text Over Image is hidden on mobile (@media Rule) borken
- The Card spills out of the row on medium and larger screens 
+      The Text Over Image is hidden on mobile (@media Rule) !done
+      The Card spills out of the row on medium and larger screens !done
       Must use external Icon library (FontAwesome, Material Icons, etc.) !done
- Specified elements order changes based on screen size 
+      Specified elements order changes based on screen size !done
       Cards are vertically centered with the center card larger for emphasis !done
- Appropriate use of Margins and padding
+      Appropriate use of Margins and padding Done i think?
 reference: https://www.figma.com/file/vewXfmgWeQN9QCw9ELYdiI/Clone-Site?node-id=0%3A1
 
 Stretch goals

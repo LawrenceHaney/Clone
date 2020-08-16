@@ -37,13 +37,13 @@ top: 5vh;
 #land2{
 
 }
-#land3{
+/* #land3{
   height: 40vh
-}
+} */
 
-#landcardcontainer{
+/* #landcardrow{
   height: 35vh;
-}
+} */
 
 #carousel1{
   background-image: url(/meeple.jpg);
@@ -79,8 +79,7 @@ footer{
  }
 
 
- @media screen and (max-width: 600px) {
-  .jumbotext {
-    display: none;
+@media screen and (max-width: 600px) {
+#jumbotext{display: none;
   }
 }
