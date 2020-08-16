@@ -29,15 +29,15 @@ top: 5vh;
 
 
 #carousel1{
-  background-image: url(./meeple.jpg);
+  background-image: url("./meeple.jpg");
   height: 40vh;
 }
 #carousel2{
-  background-image: url(./mini.jpg);
+  background-image: url("./mini.jpg");
   height: 40vh;
 }
 #carousel3{
-  background-image: url(./board.jpg);
+  background-image: url("./board.jpg");
   height: 40vh;
 }
 
